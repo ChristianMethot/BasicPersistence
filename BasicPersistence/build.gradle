@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+mainClassName = 'BasicPersistence.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+    
+    implementation group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.5.2'
+    
+    implementation group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.36.0.3'
+}

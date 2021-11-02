@@ -1,7 +1,7 @@
 # Persistence with JPA
 
 ## General info
-A minimalist persistence project. Persists a user and messages in an SQLite database.
+A minimalist persistence project. Persists a user and messages in an SQLite3 database.
 	
 ## Technologies
 Project is created with:

@@ -9,12 +9,11 @@ Project is created with:
 * EclipseLink JPA 2.5.2
 * SQLIte3 
 	
-<!-- ## Setup
-To run this project, TODO:
+## Setup
+To run this project:
+* Adjust the database path in persistence.xml if needed
+* Use Gradle to run 
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
---!>
+$ cd ../BasicPersistence
+$ gradle run
